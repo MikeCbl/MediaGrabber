@@ -62,7 +62,7 @@ In case of any errors related to any function, the user will receive appropriate
 #### Granting Permissions
 
 Upon the first launch, the application will request all necessary permissions.
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/1.png" width="50%" height="50%">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/1.png" width="20%" height="20%">
 
 <!-- ![Granting Permissions1](images/1.png = 218x488) -->
 
