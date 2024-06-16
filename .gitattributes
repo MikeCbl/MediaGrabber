@@ -1,2 +1,4 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.apk filter=lfs diff=lfs merge=lfs -text
+app/MediaGrabber.zip filter=lfs diff=lfs merge=lfs -text
+app/release/app-universal-release.apk filter=lfs diff=lfs merge=lfs -text
