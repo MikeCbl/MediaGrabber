@@ -62,39 +62,47 @@ In case of any errors related to any function, the user will receive appropriate
 #### Granting Permissions
 
 Upon the first launch, the application will request all necessary permissions.
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/1.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/2.png" width="190" height="488">
 
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/1.png" width="190" height="488" style="display: inline-block; margin: 0 10px;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/2.png" width="190" height="488" style="display: inline-block; margin: 0 10px;">
+</div>
 If permissions are denied, on the next launch, a window will appear that will take you directly to the settings to grant permissions.
 
 #### Creating a PIN Code
 
 Upon the first launch, a message will prompt you to create a new PIN code:
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/3.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/4.png" width="190" height="488">
 
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/3.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/4.png" width="190" height="488">
+</div>
 If the user enters a PIN that is too short or too long, a notification will appear. After successfully creating the PIN, the login options window will open automatically.
 
 #### Logging In
 
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/5.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/6.png" width="190" height="488">
-
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/5.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/6.png" width="190" height="488">
+</div>
 The user can choose to log in with either a PIN code or a fingerprint.
 
 #### Displaying the Video List
 
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/7.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/8.png" width="190" height="488">
-
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/7.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/8.png" width="190" height="488">
+</div>
 If there are no downloaded videos (or if permission to read memory is not granted), a text message will appear instead of a list.
 
 #### Sharing Gestures
 
 The gestures in the application are intuitive and easy to remember. Swipe gestures are used for sharing or deleting a video, with additional visual cues provided by colors and icons.
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/9.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/10.png" width="190" height="488">
 
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/9.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/10.png" width="190" height="488">
+</div>
 The sharing gesture is green with a standard "share" icon.
 
 #### Deletion Gesture
@@ -105,15 +113,19 @@ The deletion gesture has a trash can icon and is red, indicating the possibility
 #### Video Playback
 
 Videos are played using a tap gesture. The user selects a video from the list, and upon tapping, the video will open.
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/12.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/13.png" width="190" height="488">
 
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/12.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/13.png" width="190" height="488">
+</div>
 #### Downloading Videos
 
 While downloading videos, a progress bar is visible to inform the user about the download status. A message will appear after a successful or unsuccessful attempt.
 
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/14.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/15.png" width="190" height="488">
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/14.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/15.png" width="190" height="488">
+</div>
 
 #### Settings
 
@@ -126,14 +138,16 @@ In the settings section, the user has six useful options to choose from:
 - Application shutdown
 - Cookie generation
 
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/16.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/17.png" width="190" height="488">
-
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/16.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/17.png" width="190" height="488">
+</div>
 Clicking on the "Get cookie" tile will display a window requesting a URL. After clicking OK, the page will open in WebView.
 
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/18.png" width="190" height="488">
-<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/19.png" width="190" height="488">
-
+<div style="text-align: center;">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/18.png" width="190" height="488">
+    <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/19.png" width="190" height="488">
+</div>
 After logging into the service, an "OK" button will appear. Clicking it will generate the cookies.
 
 ## 6. Program Structure
