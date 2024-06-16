@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_start_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Download"
+        app:layout_constraintBottom_toTopOf="@+id/btn_stop_download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar_status" />
+
+    <Button
+        android:id="@+id/btn_stop_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Download"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar_status" />
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do Smth"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintVertical_bias="0.90999997" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_status"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="234dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <EditText
+        android:id="@+id/editText_url"
+        android:layout_width="252dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="Enter URL Here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_update_ytdlp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update ytdlp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_stop_download" />
+
+    <Switch
+        android:id="@+id/use_cookie"
+        android:layout_width="170dp"
+        android:layout_height="29dp"
+        android:text="Use cookies?"
+        app:layout_constraintBottom_toTopOf="@+id/btn_stop_download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_start_download" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

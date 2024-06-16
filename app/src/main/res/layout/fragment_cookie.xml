@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/flashlightCard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="0"
+            android:layout_margin="12dp"
+
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_flashlight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Flashlight"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/recordVideoCard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="1"
+            android:layout_columnWeight="0"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_camera_account" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Take Video"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mediaViewerCard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="0"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_cookie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Get cookie"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/vibrationCard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_rowWeight="0"
+            android:layout_column="1"
+            android:layout_columnWeight="0"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_vibrate" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Vibrate"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/qrCodeCard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="2"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="0"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_qrcode_scan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="QR"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/shutDownCard"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="0"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="12dp"
+            app:cardElevation="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_power"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trun off"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</RelativeLayout>

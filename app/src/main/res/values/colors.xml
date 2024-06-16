@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    colors-->
+    <color name="item_media_description_text_color">#606060</color>
+    <color name="web_viewer_ok_button">#BB86FC</color>
+</resources>
