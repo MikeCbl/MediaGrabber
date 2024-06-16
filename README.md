@@ -63,59 +63,57 @@ In case of any errors related to any function, the user will receive appropriate
 
 Upon the first launch, the application will request all necessary permissions.
 <img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/1.png" width="218" height="488">
-
-<!-- ![Granting Permissions1](images/1.png = 218x488) -->
-
-![Granting Permissions2](images/2.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/2.png" width="218" height="488">
 
 If permissions are denied, on the next launch, a window will appear that will take you directly to the settings to grant permissions.
 
 #### Creating a PIN Code
 
 Upon the first launch, a message will prompt you to create a new PIN code:
-![Creating PIN Code](images/3.png)
-![Creating PIN Code](images/4.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/3.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/4.png" width="218" height="488">
 
 If the user enters a PIN that is too short or too long, a notification will appear. After successfully creating the PIN, the login options window will open automatically.
 
 #### Logging In
 
-![Logging In](images/5.png)
-![Logging In](images/6.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/5.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/6.png" width="218" height="488">
 
 The user can choose to log in with either a PIN code or a fingerprint.
 
 #### Displaying the Video List
 
-![Displaying the Video List](images/7.png)
-![Displaying the Video List](images/8.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/7.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/8.png" width="218" height="488">
 
 If there are no downloaded videos (or if permission to read memory is not granted), a text message will appear instead of a list.
 
 #### Sharing Gestures
 
 The gestures in the application are intuitive and easy to remember. Swipe gestures are used for sharing or deleting a video, with additional visual cues provided by colors and icons.
-![Sharing Gesture](images/9.png)
-![Sharing Gesture](images/10.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/9.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/10.png" width="218" height="488">
 
 The sharing gesture is green with a standard "share" icon.
 
 #### Deletion Gesture
 
 The deletion gesture has a trash can icon and is red, indicating the possibility of permanently deleting the video.
-![Deletion Gesture](images/11.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/11.png" width="218" height="488">
 
 #### Video Playback
 
 Videos are played using a tap gesture. The user selects a video from the list, and upon tapping, the video will open.
-![Video Playback](images/12.png)
-![Video Playback](images/13.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/12.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/13.png" width="218" height="488">
 
 #### Downloading Videos
 
 While downloading videos, a progress bar is visible to inform the user about the download status. A message will appear after a successful or unsuccessful attempt.
-![Downloading Videos](images/14.png)
-![Downloading Videos](images/15.png)
+
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/14.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/15.png" width="218" height="488">
 
 #### Settings
 
@@ -127,12 +125,14 @@ In the settings section, the user has six useful options to choose from:
 - QR code scanning
 - Application shutdown
 - Cookie generation
-  ![Settings](images/16.png)
-  ![Settings](images/17.png)
+
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/16.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/17.png" width="218" height="488">
 
 Clicking on the "Get cookie" tile will display a window requesting a URL. After clicking OK, the page will open in WebView.
-![Get Cookie](images/18.png)
-![Get Cookie](images/19.png)
+
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/18.png" width="218" height="488">
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/19.png" width="218" height="488">
 
 After logging into the service, an "OK" button will appear. Clicking it will generate the cookies.
 
@@ -150,7 +150,7 @@ The application is fairly simple. It is based on downloading videos from the Int
 
 ### 7.1 Use Case Diagram
 
-![Activity Diagram](images/UML.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/UML.png">
 
 #### Actors Definition
 
@@ -177,4 +177,4 @@ Logging into the system is called right at the start of the program. You need to
 
 #### Activity Diagram for UC Download Video
 
-![Activity Diagram](images/PU.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/PU.png">
