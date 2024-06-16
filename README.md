@@ -62,7 +62,10 @@ In case of any errors related to any function, the user will receive appropriate
 #### Granting Permissions
 
 Upon the first launch, the application will request all necessary permissions.
-![Granting Permissions1](images/1.png)
+<img src="https://github.com/MikeCbl/MediaGrabber/blob/master/images/1.png" width="50%" height="50%">
+
+<!-- ![Granting Permissions1](images/1.png = 218x488) -->
+
 ![Granting Permissions2](images/2.png)
 
 If permissions are denied, on the next launch, a window will appear that will take you directly to the settings to grant permissions.
